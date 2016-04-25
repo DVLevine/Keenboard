@@ -1,0 +1,13 @@
+PODS:
+  - Aspects (1.4.1)
+  - JPSVolumeButtonHandler (1.0.0)
+
+DEPENDENCIES:
+  - Aspects
+  - JPSVolumeButtonHandler
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  JPSVolumeButtonHandler: b056ec5c574fbd75a0637c527e25fe0197ec1648
+
+COCOAPODS: 0.39.0
