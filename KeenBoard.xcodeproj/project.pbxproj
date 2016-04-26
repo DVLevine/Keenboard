@@ -10,6 +10,9 @@
 		104581A51CCDA77300F4BCA6 /* UIDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 104581A41CCDA77300F4BCA6 /* UIDevice.m */; };
 		104581A81CCDA89B00F4BCA6 /* UITapticEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 104581A71CCDA89B00F4BCA6 /* UITapticEngine.m */; };
 		104581AA1CCE75A300F4BCA6 /* Keenboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104581A91CCE75A300F4BCA6 /* Keenboard.swift */; };
+		104581EF1CCF1AC600F4BCA6 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104581EE1CCF1AC600F4BCA6 /* KeyboardViewController.swift */; };
+		104581F31CCF1AC700F4BCA6 /* Lockpick.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 104581EC1CCF1AC600F4BCA6 /* Lockpick.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		104581F91CCF1BD600F4BCA6 /* Lockpick.xib in Resources */ = {isa = PBXBuildFile; fileRef = 104581F81CCF1BD600F4BCA6 /* Lockpick.xib */; };
 		108513A61CCD63F900910D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108513A51CCD63F900910D15 /* AppDelegate.swift */; };
 		108513A81CCD63F900910D15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108513A71CCD63F900910D15 /* ViewController.swift */; };
 		108513AB1CCD63F900910D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108513A91CCD63F900910D15 /* Main.storyboard */; };
@@ -22,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		104581F11CCF1AC700F4BCA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1085139A1CCD63F800910D15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 104581EB1CCF1AC600F4BCA6;
+			remoteInfo = Lockpick;
+		};
 		108513BA1CCD63F900910D15 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1085139A1CCD63F800910D15 /* Project object */;
@@ -38,6 +48,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		104581F71CCF1AC700F4BCA6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				104581F31CCF1AC700F4BCA6 /* Lockpick.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		104581A21CCDA77300F4BCA6 /* KeenBoard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeenBoard-Bridging-Header.h"; sourceTree = "<group>"; };
 		104581A31CCDA77300F4BCA6 /* UIDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDevice.h; sourceTree = "<group>"; };
@@ -45,6 +69,10 @@
 		104581A61CCDA89B00F4BCA6 /* UITapticEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITapticEngine.h; sourceTree = "<group>"; };
 		104581A71CCDA89B00F4BCA6 /* UITapticEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITapticEngine.m; sourceTree = "<group>"; };
 		104581A91CCE75A300F4BCA6 /* Keenboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keenboard.swift; sourceTree = "<group>"; };
+		104581EC1CCF1AC600F4BCA6 /* Lockpick.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Lockpick.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		104581EE1CCF1AC600F4BCA6 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		104581F01CCF1AC600F4BCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		104581F81CCF1BD600F4BCA6 /* Lockpick.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Lockpick.xib; sourceTree = "<group>"; };
 		108513A21CCD63F800910D15 /* KeenBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeenBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		108513A51CCD63F900910D15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		108513A71CCD63F900910D15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +93,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		104581E91CCF1AC600F4BCA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1085139F1CCD63F800910D15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,12 +125,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		104581ED1CCF1AC600F4BCA6 /* Lockpick */ = {
+			isa = PBXGroup;
+			children = (
+				104581EE1CCF1AC600F4BCA6 /* KeyboardViewController.swift */,
+				104581F01CCF1AC600F4BCA6 /* Info.plist */,
+				104581F81CCF1BD600F4BCA6 /* Lockpick.xib */,
+			);
+			path = Lockpick;
+			sourceTree = "<group>";
+		};
 		108513991CCD63F800910D15 = {
 			isa = PBXGroup;
 			children = (
 				108513A41CCD63F900910D15 /* KeenBoard */,
 				108513BC1CCD63F900910D15 /* KeenBoardTests */,
 				108513C71CCD63F900910D15 /* KeenBoardUITests */,
+				104581ED1CCF1AC600F4BCA6 /* Lockpick */,
 				108513A31CCD63F800910D15 /* Products */,
 				ABBA1FF78772027A07D2068C /* Pods */,
 				52E6BE607BAF9EE3FA30A830 /* Frameworks */,
@@ -108,6 +154,7 @@
 				108513A21CCD63F800910D15 /* KeenBoard.app */,
 				108513B91CCD63F900910D15 /* KeenBoardTests.xctest */,
 				108513C41CCD63F900910D15 /* KeenBoardUITests.xctest */,
+				104581EC1CCF1AC600F4BCA6 /* Lockpick.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,6 +217,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		104581EB1CCF1AC600F4BCA6 /* Lockpick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 104581F61CCF1AC700F4BCA6 /* Build configuration list for PBXNativeTarget "Lockpick" */;
+			buildPhases = (
+				104581E81CCF1AC600F4BCA6 /* Sources */,
+				104581E91CCF1AC600F4BCA6 /* Frameworks */,
+				104581EA1CCF1AC600F4BCA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lockpick;
+			productName = Lockpick;
+			productReference = 104581EC1CCF1AC600F4BCA6 /* Lockpick.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		108513A11CCD63F800910D15 /* KeenBoard */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 108513CD1CCD63F900910D15 /* Build configuration list for PBXNativeTarget "KeenBoard" */;
@@ -180,10 +244,12 @@
 				108513A01CCD63F800910D15 /* Resources */,
 				658DF175D5F4FE5A9BBBB20B /* Embed Pods Frameworks */,
 				42F669B1FD283903BE2C26C5 /* Copy Pods Resources */,
+				104581F71CCF1AC700F4BCA6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				104581F21CCF1AC700F4BCA6 /* PBXTargetDependency */,
 			);
 			name = KeenBoard;
 			productName = KeenBoard;
@@ -236,6 +302,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "D-Line";
 				TargetAttributes = {
+					104581EB1CCF1AC600F4BCA6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					108513A11CCD63F800910D15 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -265,11 +334,20 @@
 				108513A11CCD63F800910D15 /* KeenBoard */,
 				108513B81CCD63F900910D15 /* KeenBoardTests */,
 				108513C31CCD63F900910D15 /* KeenBoardUITests */,
+				104581EB1CCF1AC600F4BCA6 /* Lockpick */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		104581EA1CCF1AC600F4BCA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104581F91CCF1BD600F4BCA6 /* Lockpick.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		108513A01CCD63F800910D15 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -345,6 +423,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		104581E81CCF1AC600F4BCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104581EF1CCF1AC600F4BCA6 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1085139E1CCD63F800910D15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,6 +463,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		104581F21CCF1AC700F4BCA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 104581EB1CCF1AC600F4BCA6 /* Lockpick */;
+			targetProxy = 104581F11CCF1AC700F4BCA6 /* PBXContainerItemProxy */;
+		};
 		108513BB1CCD63F900910D15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 108513A11CCD63F800910D15 /* KeenBoard */;
@@ -409,6 +500,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		104581F41CCF1AC700F4BCA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Lockpick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = person.DanLevine.KeenBoard.Lockpick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		104581F51CCF1AC700F4BCA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Lockpick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = person.DanLevine.KeenBoard.Lockpick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		108513CB1CCD63F900910D15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -500,6 +613,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = KeenBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = person.DanLevine.KeenBoard;
@@ -515,6 +629,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = KeenBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = person.DanLevine.KeenBoard;
@@ -572,6 +687,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		104581F61CCF1AC700F4BCA6 /* Build configuration list for PBXNativeTarget "Lockpick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				104581F41CCF1AC700F4BCA6 /* Debug */,
+				104581F51CCF1AC700F4BCA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		1085139D1CCD63F800910D15 /* Build configuration list for PBXProject "KeenBoard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

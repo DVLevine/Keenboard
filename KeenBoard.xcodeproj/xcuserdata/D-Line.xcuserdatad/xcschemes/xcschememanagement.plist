@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Lockpick.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>104581EB1CCF1AC600F4BCA6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>108513A11CCD63F800910D15</key>
 		<dict>
 			<key>primary</key>

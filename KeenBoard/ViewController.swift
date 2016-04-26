@@ -14,6 +14,7 @@ import JPSVolumeButtonHandler
 class ViewController: UIViewController {
 
     
+    @IBOutlet weak var textField: UIView!
     // variable to keep track of starting point
     private var gestureStartPoint:CGPoint!
     private var pressHeld:Bool!
@@ -50,10 +51,17 @@ class ViewController: UIViewController {
         
         volumeButtonHandler = JPSVolumeButtonHandler(upBlock: block, downBlock: lowBlock)
         
+        //loading keyboard
         
+        //For keyboard
+        // initialize custom keyboard
+     //   let keyboardView = Keenboard(frame: CGRect(x: 0, y: 0, width: 0, height: 300))
+     //   keyboardView.delegate = self; // the view controller will be notified by the keyboard whenever a key is tapped
         
+        // replace system keyboard with custom keyboard
+     //   textField!.inputView = keyboardView;
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
