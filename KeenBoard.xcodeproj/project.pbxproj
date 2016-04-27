@@ -13,6 +13,18 @@
 		104581EF1CCF1AC600F4BCA6 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104581EE1CCF1AC600F4BCA6 /* KeyboardViewController.swift */; };
 		104581F31CCF1AC700F4BCA6 /* Lockpick.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 104581EC1CCF1AC600F4BCA6 /* Lockpick.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		104581F91CCF1BD600F4BCA6 /* Lockpick.xib in Resources */ = {isa = PBXBuildFile; fileRef = 104581F81CCF1BD600F4BCA6 /* Lockpick.xib */; };
+		104582561CCFC3DC00F4BCA6 /* Tone1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 104582491CCFC3DB00F4BCA6 /* Tone1.caf */; };
+		104582571CCFC3DC00F4BCA6 /* Tone2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1045824A1CCFC3DB00F4BCA6 /* Tone2.caf */; };
+		104582591CCFC3DC00F4BCA6 /* Tone4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1045824C1CCFC3DB00F4BCA6 /* Tone4.caf */; };
+		1045825A1CCFC3DC00F4BCA6 /* Tone5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1045824D1CCFC3DB00F4BCA6 /* Tone5.caf */; };
+		1045825B1CCFC3DC00F4BCA6 /* Tone6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1045824E1CCFC3DB00F4BCA6 /* Tone6.caf */; };
+		1045825C1CCFC3DC00F4BCA6 /* Tone7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1045824F1CCFC3DB00F4BCA6 /* Tone7.caf */; };
+		1045825D1CCFC3DC00F4BCA6 /* Tone8.caf in Resources */ = {isa = PBXBuildFile; fileRef = 104582501CCFC3DB00F4BCA6 /* Tone8.caf */; };
+		1045825E1CCFC3DC00F4BCA6 /* Tone9.caf in Resources */ = {isa = PBXBuildFile; fileRef = 104582511CCFC3DB00F4BCA6 /* Tone9.caf */; };
+		1045825F1CCFC3DC00F4BCA6 /* Tone10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 104582521CCFC3DB00F4BCA6 /* Tone10.caf */; };
+		104582601CCFC3DC00F4BCA6 /* Tone11.caf in Resources */ = {isa = PBXBuildFile; fileRef = 104582531CCFC3DB00F4BCA6 /* Tone11.caf */; };
+		104582611CCFC3DC00F4BCA6 /* Tone12.caf in Resources */ = {isa = PBXBuildFile; fileRef = 104582541CCFC3DB00F4BCA6 /* Tone12.caf */; };
+		104582621CCFC3DC00F4BCA6 /* Tone13.caf in Resources */ = {isa = PBXBuildFile; fileRef = 104582551CCFC3DB00F4BCA6 /* Tone13.caf */; };
 		108513A61CCD63F900910D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108513A51CCD63F900910D15 /* AppDelegate.swift */; };
 		108513A81CCD63F900910D15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108513A71CCD63F900910D15 /* ViewController.swift */; };
 		108513AB1CCD63F900910D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108513A91CCD63F900910D15 /* Main.storyboard */; };
@@ -73,6 +85,18 @@
 		104581EE1CCF1AC600F4BCA6 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		104581F01CCF1AC600F4BCA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		104581F81CCF1BD600F4BCA6 /* Lockpick.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Lockpick.xib; sourceTree = "<group>"; };
+		104582491CCFC3DB00F4BCA6 /* Tone1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tone1.caf; sourceTree = "<group>"; };
+		1045824A1CCFC3DB00F4BCA6 /* Tone2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tone2.caf; sourceTree = "<group>"; };
+		1045824C1CCFC3DB00F4BCA6 /* Tone4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tone4.caf; sourceTree = "<group>"; };
+		1045824D1CCFC3DB00F4BCA6 /* Tone5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tone5.caf; sourceTree = "<group>"; };
+		1045824E1CCFC3DB00F4BCA6 /* Tone6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tone6.caf; sourceTree = "<group>"; };
+		1045824F1CCFC3DB00F4BCA6 /* Tone7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tone7.caf; sourceTree = "<group>"; };
+		104582501CCFC3DB00F4BCA6 /* Tone8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tone8.caf; sourceTree = "<group>"; };
+		104582511CCFC3DB00F4BCA6 /* Tone9.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tone9.caf; sourceTree = "<group>"; };
+		104582521CCFC3DB00F4BCA6 /* Tone10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tone10.caf; sourceTree = "<group>"; };
+		104582531CCFC3DB00F4BCA6 /* Tone11.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tone11.caf; sourceTree = "<group>"; };
+		104582541CCFC3DB00F4BCA6 /* Tone12.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tone12.caf; sourceTree = "<group>"; };
+		104582551CCFC3DB00F4BCA6 /* Tone13.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tone13.caf; sourceTree = "<group>"; };
 		108513A21CCD63F800910D15 /* KeenBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeenBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		108513A51CCD63F900910D15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		108513A71CCD63F900910D15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +153,18 @@
 			isa = PBXGroup;
 			children = (
 				104581EE1CCF1AC600F4BCA6 /* KeyboardViewController.swift */,
+				104582491CCFC3DB00F4BCA6 /* Tone1.caf */,
+				1045824A1CCFC3DB00F4BCA6 /* Tone2.caf */,
+				1045824C1CCFC3DB00F4BCA6 /* Tone4.caf */,
+				1045824D1CCFC3DB00F4BCA6 /* Tone5.caf */,
+				1045824E1CCFC3DB00F4BCA6 /* Tone6.caf */,
+				1045824F1CCFC3DB00F4BCA6 /* Tone7.caf */,
+				104582501CCFC3DB00F4BCA6 /* Tone8.caf */,
+				104582511CCFC3DB00F4BCA6 /* Tone9.caf */,
+				104582521CCFC3DB00F4BCA6 /* Tone10.caf */,
+				104582531CCFC3DB00F4BCA6 /* Tone11.caf */,
+				104582541CCFC3DB00F4BCA6 /* Tone12.caf */,
+				104582551CCFC3DB00F4BCA6 /* Tone13.caf */,
 				104581F01CCF1AC600F4BCA6 /* Info.plist */,
 				104581F81CCF1BD600F4BCA6 /* Lockpick.xib */,
 			);
@@ -344,6 +380,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1045825A1CCFC3DC00F4BCA6 /* Tone5.caf in Resources */,
+				104582571CCFC3DC00F4BCA6 /* Tone2.caf in Resources */,
+				104582601CCFC3DC00F4BCA6 /* Tone11.caf in Resources */,
+				1045825F1CCFC3DC00F4BCA6 /* Tone10.caf in Resources */,
+				1045825E1CCFC3DC00F4BCA6 /* Tone9.caf in Resources */,
+				104582611CCFC3DC00F4BCA6 /* Tone12.caf in Resources */,
+				104582621CCFC3DC00F4BCA6 /* Tone13.caf in Resources */,
+				1045825B1CCFC3DC00F4BCA6 /* Tone6.caf in Resources */,
+				104582561CCFC3DC00F4BCA6 /* Tone1.caf in Resources */,
+				104582591CCFC3DC00F4BCA6 /* Tone4.caf in Resources */,
+				1045825D1CCFC3DC00F4BCA6 /* Tone8.caf in Resources */,
+				1045825C1CCFC3DC00F4BCA6 /* Tone7.caf in Resources */,
 				104581F91CCF1BD600F4BCA6 /* Lockpick.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -694,6 +742,7 @@
 				104581F51CCF1AC700F4BCA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1085139D1CCD63F800910D15 /* Build configuration list for PBXProject "KeenBoard" */ = {
 			isa = XCConfigurationList;

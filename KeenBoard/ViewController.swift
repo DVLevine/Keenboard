@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     private var gestureStartPoint:CGPoint!
     private var pressHeld:Bool!
     private var volumeButtonHandler: JPSVolumeButtonHandler?
+    private var angle: Float!
     
     // variable to keep track of the angle
     // variable to keep track of secondary gestures
